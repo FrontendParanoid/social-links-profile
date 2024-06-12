@@ -1,0 +1,71 @@
+body
+{
+    font-size: 14px;
+    background-color: #141515;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+main
+{
+    background-color: #1f1e1e;
+    width: 20%;
+    border-radius: 10px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+    position: absolute;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+#mini-profile
+{
+    color: white;
+}
+
+#mini-profile h3 
+{
+    color: #91ad35;
+}
+#btns button
+{
+    text-align: center;
+    width: 90%;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    background-color: #323332;
+    border: none;
+    font-weight: bold;
+}
+
+#btns button:active
+{
+    background-color: #c5f82b;
+    color: black;
+    cursor: pointer;
+}
+
+img 
+{
+    width: 30%;
+    border-radius: 100px;
+}
+
+.profile 
+{
+    position: absolute;
+}
+
+.attribution
+{
+    position: absolute;
+    bottom: 0;
+}
