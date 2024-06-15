@@ -61,6 +61,7 @@ img
 
 .profile 
 {
+    min-width: 400px;
     position: absolute;
 }
 
